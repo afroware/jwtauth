@@ -1,5 +1,5 @@
 {
-    "name": "afroware/jwTauth",
+    "name": "afroware/jwtauth",
     "description": "JSON Web Token Authentication for Laravel and Lumen",
     "keywords": [
         "auth",
@@ -8,9 +8,10 @@
         "jwT",
         "laravel"
     ],
-    "homepage": "https://github.com/afro-ware/jwTauth",
+    "homepage": "https://github.com/afro-ware/jwtauth",
     "support": {
-        "issues": "https://github.com/afro-ware/jwTauth/issues",
+        "issues": "https://github.com/afro-ware/jwtauth/issues",
+        "wiki": "https://github.com/afro-ware/jwtauth/wiki",
         "source": "https://github.com/afro-ware/jwTauth"
     },
     "license": "MIT",
