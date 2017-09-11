@@ -1,0 +1,75 @@
+{
+    "name": "afroware/jwTauth",
+    "description": "JSON Web Token Authentication for Laravel and Lumen",
+    "keywords": [
+        "auth",
+        "authentication",
+        "json web token",
+        "jwT",
+        "laravel"
+    ],
+    "homepage": "https://github.com/afro-ware/jwTauth",
+    "support": {
+        "issues": "https://github.com/afro-ware/jwTauth/issues",
+        "source": "https://github.com/afro-ware/jwTauth"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Adel Lamallam",
+            "email": "conact@afroware.com",
+            "homepage": "https://afroware.com",
+            "role": "Manager"
+        }
+    ],
+    "require": {
+        "php": "^5.5.9 || ^7.0 || ^7.1",
+        "illuminate/auth": "5.1.* || 5.2.* || 5.3.* || 5.4.* || 5.5.*",
+        "illuminate/contracts": "5.1.* || 5.2.* || 5.3.* || 5.4.* || 5.5.*",
+        "illuminate/http": "5.1.* || 5.2.* || 5.3.* || 5.4.* || 5.5.*",
+        "illuminate/support": "5.1.* || 5.2.* || 5.3.* || 5.4.* || 5.5.*",
+        "namshi/jose": "^7.0",
+        "nesbot/carbon": "^1.0"
+    },
+    "require-dev": {
+        "cartalyst/sentinel": "2.0.*",
+        "illuminate/console": "5.1.* || 5.2.* || 5.3.* || 5.4.* || 5.5.*",
+        "illuminate/database": "5.1.* || 5.2.* || 5.3.* || 5.4.* || 5.5.*",
+        "illuminate/routing": "5.1.* || 5.2.* || 5.3.* || 5.4.* || 5.5.*",
+        "mockery/mockery": "0.9.*",
+        "phpunit/phpunit": "~4.8 || ~6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Afroware\\JwTauth\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Afroware\\JwTauth\\Test\\": "tests/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-develop": "1.0.0-dev"
+        },
+        "laravel": {
+            "aliases": {
+                "JwTauth": "Afroware\\JwTauth\\Facades\\JwTauth",
+                "JwTFactory": "Afroware\\JwTauth\\Facades\\JwTFactory"
+            },
+            "providers": [
+                "Afroware\\JwTauth\\Providers\\LaravelServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "prefer-stable": true,
+    "minimum-stability": "dev",
+    "scripts": {
+        "test": "phpunit --colors=always",
+        "test:ci": "composer test -- --verbose --coverage-text --coverage-clover=coverage.xml"
+    }
+}
