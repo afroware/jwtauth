@@ -1,7 +1,5 @@
 ---
 layout: home
-title: Home
-permalink: /home/
 ---
 
 jwt-auth provides a simple means of authentication within Laravel using JSON Web Tokens ([spec](http://self-issued.info/docs/draft-ietf-oauth-json-web-token.html))
