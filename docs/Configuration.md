@@ -1,3 +1,9 @@
+---
+layout: page
+title: Configuration
+permalink: /config/
+---
+
 Note the following options.
 
 #### Secret Key - `secret`
