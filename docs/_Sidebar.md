@@ -1,4 +1,9 @@
-1. [Installation](https://github.com/tymondesigns/jwt-auth/wiki/Installation)
-2. [Configuration](https://github.com/tymondesigns/jwt-auth/wiki/Configuration)
-3. [Creating Tokens](https://github.com/tymondesigns/jwt-auth/wiki/Creating-Tokens)
-4. [Authentication](https://github.com/tymondesigns/jwt-auth/wiki/Authentication)
+---
+layout: sidebar
+title: Sommaire
+---
+
+1. [Installation](Installation.md)
+2. [Configuration](Configuration.md)
+3. [Creating Tokens](Creating-Tokens.md)
+4. [Authentication](Authentication.md)
