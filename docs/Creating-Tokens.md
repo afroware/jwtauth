@@ -1,3 +1,9 @@
+---
+layout: page
+title: Tokens
+permalink: /tokens/
+---
+
 There are several ways to create a token within the package. There are simple ways to do it, and more advanced methods if you want greater control.
 
 Out of the box there are a number of required claims, Although this can be configured:
