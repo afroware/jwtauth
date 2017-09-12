@@ -1,6 +1,3 @@
-
-![jwTauth-banner](https://cloud.githubusercontent.com/assets/1801923/9915273/119b9350-5cae-11e5-850b-c941cac60b32.png)
-
 [![Build Status](http://img.shields.io/travis/afro-ware/jwTauth/master.svg?style=flat-square)](https://travis-ci.org/afro-ware/jwTauth)
 [![Codecov branch](https://img.shields.io/codecov/c/github/afro-ware/jwTauth/develop.svg?style=flat-square)](https://codecov.io/github/afro-ware/jwTauth)
 [![StyleCI](https://styleci.io/repos/23680678/shield?style=flat-square)](https://styleci.io/repos/23680678)
