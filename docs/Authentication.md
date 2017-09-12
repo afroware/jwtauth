@@ -1,3 +1,9 @@
+---
+layout: page
+title: Authentification
+permalink: /authentifiaction/
+---
+
 Once a user has logged in with their credentials, then the next step would be to make a subsequent request, with the token, to retrieve the users' details, so you can show them as being logged in.
 
 To make authenticated requests via http using the built in methods, you will need to set an authorization header as follows:
