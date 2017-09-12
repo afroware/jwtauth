@@ -1,1 +1,18 @@
-theme: jekyll-theme-leap-day
+
+# Site settings
+
+title: Adel Lamallam
+email: contact@afroware.com
+description: > 
+  This is my open source project home page, here you will find 
+  documentations, blog, discutions about differents kind of releases.
+baseurl: "/"
+url: "https://afroware.com"
+twitter_username: afroware
+github_username:  alamallam
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
