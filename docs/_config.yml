@@ -13,6 +13,6 @@ github_username:  alamallam
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-cayman
+theme: jekyll-theme-leap-day
 plugins:
   - jekyll-feed
